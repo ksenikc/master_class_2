@@ -1,0 +1,432 @@
+body {
+    color: #000;
+    font-family: Tenor Sans;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 120px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav ul {
+    display: flex;
+}
+
+.header__nav-item {
+    list-style-type: none;
+}
+
+.header__nav-item a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.header__nav-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.footer {
+    background-color: #141414;
+    padding: 93px 0 95px;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: baseline;
+    border-bottom: 1px solid #4D4D4D;
+    padding-bottom: 60px;
+}
+
+.footer__text {
+    color: #666;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+
+main {
+    min-height: 400vh;
+}
+
+section.main-banner {
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.main-banner__img-container {
+    max-width: 721px;
+    max-height: 474px;
+}
+
+.main-banner__img-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+span.main-banner__content-text {
+    color: #999999;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.main-banner__content-title {
+    font-family: Tenor Sans;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.main-banner__content-desc {
+    color: #666;
+    font-family: Source Sprif Prn;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 5px;
+    margin-bottom: 28px;
+
+}
+
+button.main-banner__content-btn {
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: inherit;
+    border: none;
+    padding: 0;
+}
+
+/*Первый блок*/
+
+.main-photos__img-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 19px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.main-photos__img-block img {
+    width: 407px;
+    max-height: 254px;
+    margin-bottom: 15px;
+}
+
+.main-photos__img-block-article {
+    width: 407px;
+    height: 482px;
+}
+
+span.main-photos__block-article-text {
+    color: #999999;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    margin-top: 24px;
+}
+
+.main-photos__block-article-title {
+    font-family: Tenor Sans;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.main-photos__block-article-btn {
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: inherit;
+    border: none;
+    padding: 0;
+}
+
+/*2 блок*/
+.main-photo {
+    margin-top: 90px;
+}
+
+span.main-photo__text {
+    color: #999999;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.main-photo__img-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 19px;
+    margin-top: 30px;
+}
+
+.main-photo__img-block img {
+    width: 305px;
+    max-height: 187px;
+    margin-bottom: 15px;
+}
+
+.main-photo__img-block-article {
+    max-width: 305px;
+    max-height: 389px;
+    margin-bottom: 70px;
+}
+
+span.main-photo__block-article-text {
+    color: #999999;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    margin-top: 24px;
+}
+
+.main-photo__block-article-title {
+    font-family: Tenor Sans;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.main-photo__block-article-btn {
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: inherit;
+    border: none;
+    padding: 0;
+
+}
+
+button.main-photo__btn {
+    width: 205px;
+    height: 54px;
+    top: 918.03px;
+    left: 498px;
+    background-color: #fff;
+    border: 1px solid black;
+    font-family: Libre Franklin;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+}
+
+.button_photo {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+/*3 блок*/
+.featured_POSTS {
+    margin-top: 90px;
+}
+
+span.featured_POSTS__text {
+    color: #999999;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.featured_POSTS__img-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.featured_POSTS__img-block img {
+    width: 610px;
+    max-height: 387px;
+    margin-bottom: 15px;
+}
+
+.featured_POSTS__img-block-article {
+    max-width: 610px;
+    max-height: 567px;
+    margin-bottom: 70px;
+}
+
+span.featured_POSTS__block-article-text {
+    color: #999999;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    margin-top: 24px;
+}
+
+.featured_POSTS__block-article-title {
+    font-family: Tenor Sans;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.featured_POSTS__block-article-btn {
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: inherit;
+    border: none;
+    padding: 0;
+}
+
+/*footer*/
+.footer__block {
+    display: flex;
+}
+
+.footer__block-elem {
+    color: #fff;
+    margin-right: 116px;
+    margin-top: 60px;
+}
+
+span.footer__block-elem-text {
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #141414;
+}
+
+span.footer__block-elems-text {
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+}
+
+span.footer__block-elem-texts {
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    font-family: Libre Franklin;
+
+}
+
+span.footer__block-elems-text {
+    color: #666666;
+    font-family: Libre Franklin;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+}
+
+.footer__block-elems {
+    width: 330px;
+    height: 110px;
+    float: right;
+    margin-top: 60px;
+}
+
+.footer__block-elems input {
+    width: 220px;
+    height: 48px;
+    font-family: Libre Franklin;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #666666;
+    margin: 0;
+}
+
+.footer__block-elems button {
+    width: 79px;
+    height: 56px;
+    background-color: #000000;
+    font-family: Libre Franklin;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #fff;
+    border: 0;
+}
+
+.footer__blocks {
+    display: flex;
+}
+
+.footer__blocks-elem {
+    color: #fff;
+    margin-right: 150px;
+    margin-top: 60px;
+    
+}
+
+span.footer__blocks-elem-text {
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #141414;
+}
+
+span.footer__blocks-elem-texts {
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    font-family: Libre Franklin;
+
+}
+
+
+
